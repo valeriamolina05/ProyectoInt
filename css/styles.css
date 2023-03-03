@@ -32,13 +32,13 @@ h3, p, a{
     font-family: var(--parrafos);
 }
 .morado{
-    color: var(--blanco);
+    color: #E7089C;
 }
 .fuscia{
-    color: var(--verde);
+    color: #DD4BAC;
 }
 .negro{
-    color: var(--rojo);
+    color: #DA73B7;
 }
 .ocultar{
     display: none;
@@ -99,13 +99,13 @@ h3, p, a{
 
 }
 .bordes:hover{
-    color:#00A149;
+    color:#D45497;
     background-color: var(--blanco);
 }
 
 /*Encabezado*/
 .contenedor-navegacion{
-    background-color: #000000;
+    background-color: #000;
     position: relative;
     z-index: 5;
 }
@@ -135,10 +135,10 @@ h3, p, a{
     }
 }
 .navegacion a:nth-child(even){
-    color: #f0f5f0;
+    color:#fff;
 }
 .navegacion a:nth-child(odd){
-    color:#184a0c;
+    color:#D45497;
 }
 .navegacion a:first-of-type{
     margin-top: 5rem;
