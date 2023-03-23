@@ -1,6 +1,5 @@
 const maquillaje = document.querySelector('.productos');
 const navegacion = document.querySelector('.navegacion');
-
 document.addEventListener('DOMContentLoaded',()=>{
     eventos();
 
@@ -31,6 +30,8 @@ const botonCerrar = ()=>{
     navegacion.appendChild(btnCerrar)
     cerrarMenu(btnCerrar,overlay);
 }
+
+
 const cerrarMenu= (boton,overlay)=>{
     boton.addEventListener('click',()=>{
         navegacion.classList.add('ocultar');
